@@ -20,6 +20,10 @@
 		a{
 			text-decoration:none;
 		}
+		.main{
+			border:1px solid black;
+			background-color:white;
+		}
 		.player_one{
 			background-color: rgb(255, 255, 255);
 			padding:20px;
@@ -35,21 +39,27 @@
 </head>
 
 <body>
-	<div>
-		<h1>My Playlist</h1>
-	    <h2>Now Playing...</h2>
-	    <h2>MP3 songs</h2>
-	</div>
+	<h1>My Playlist</h1>
+	<div class="main">
 		<ul>
-			<li>Songs playlist</li>
-	</ul>
-	<a href="#" target="_blank">Songs</a>
+			<li>Song 1<li>
+			<li>Song 2<li>
+			<li>Song 3<li>
+			<li>Song 4<li>
+			<li>Song 5<li>
+		</ul>
+	    <a href="#" target="_blank">Songs</a>
+	</div>
+		<h2>Now Playing...</h2>
+	<div class="main">
 	<video class="player_one" controls>
 		<source src="">
 	</video>
+	<h2>MP3 songs<h2>
 	<audio class="player_two"  controls>
-		<source src="">
+		<source src="http://commondatastorage.googleapis.com/codeskulptor-demos/DDR_assets/Kangaroo_MusiQue_-_The_Neverwritten_Role_Playing_Game.mp3">
 	</audio>
+	</div>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
